@@ -1,0 +1,14 @@
+</html>
+<head>
+    <title>
+        Django Project
+    </title>
+</head>
+<body>
+    {% for item in iterobj %}
+    <ul>
+    <li>{{ item.id }} -> {{ item.customer.first_name }}</li>
+    </ul>
+    {% endfor %}
+</body>
+</html
