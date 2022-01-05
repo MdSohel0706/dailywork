@@ -1,0 +1,31 @@
+.upperdiv
+{
+    height : 131px;
+    width : 100%;
+    background-image: url(food1.jpg);
+}
+.right
+{
+    text-align: right;
+    font-family: cursive;
+}
+.head3
+{
+    text-align: center;
+    font-family: cursive;
+}
+.linksmenu
+{
+    text-align: right;
+    font-family: cursive;
+}
+label
+{
+    display: inline-block;
+}
+input
+{
+    padding: 5px 10px;
+    align-self: auto;
+}
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            {% block title %}
+            {% endblock %} 
+        </title>
+        <link rel = 'stylesheet' href = '{{ url_for("static", filename = "style.css") }}'>
+    </head>
+    <body>
+        <h3 class = 'head3'>Lucky Draw</h3>
+        <div class = 'upperdiv'></div>
+        <div class = 'linksmenu' >
+            <a href = '/'>Start</a>
+            <a href = ''>Top 5</a>
+            <a href = ''>Restaurants</a>
+            <a href = ''>History</a>
+        </div>
+        <div class = 'dynamicbody'>
+        {% block content %} 
+        {% endblock %} 
+        </div>
+    </body>
+</html>
