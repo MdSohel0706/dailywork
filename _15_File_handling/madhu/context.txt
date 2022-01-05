@@ -1,1 +1,0 @@
----Data written using manual context manager----
