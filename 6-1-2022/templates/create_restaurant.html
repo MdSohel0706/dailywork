@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+Create Restaurant 
+{% endblock %} 
+
+{% block content %}
+<div id = 'form_enclose'>
+    <form method = 'POST' action = '/add_restaurant'>
+                <label>Restaurant name</label>
+                <input type = 'text' name = 'resname' placeholder='Enter Restaurant Name'/><br>
+                <label>Description</label>
+                <input type = 'text' name = 'resdesc' placeholder='This restaurant serves only fish.'/><br>
+                <label>Site-URL</label>
+                <input type = 'text' name = 'site-url'/><br> 
+                <button type = 'submit'>Submit</button>
+        </div>
+    </form>
+</div>
+{% endblock %} 

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+Show Restaurant 
+{% endblock %} 
+
+{% block content %}
+{% for restaurant in restaurants %}
+<div id = 'individual_res'>
+<h2>{{ restaurant['name'] }}</h2>
+<p>{{ restaurant['description'] }}</p>
+<a id = 'visit_web_btn' href = '{{ restaurant["site_url"] }}' target="new"><button>Visit Website</button></a>
+</div><br>
+{% endfor %}
+{% endblock %} 
