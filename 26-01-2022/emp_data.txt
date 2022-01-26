@@ -1,0 +1,5 @@
+NAME AGE COMPANY SALARY TRAINER
+Sohel 26 MCS 28000 Harsha
+Rakesh 25 Mirafra 30000 Kiran
+Dhanunjay 27 HCL 50000 Madhu
+Satish 25 TechMahindra 40000 Ibrahim
