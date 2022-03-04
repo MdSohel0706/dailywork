@@ -1,0 +1,38 @@
+[
+  {
+    "eCode": "E12",
+    "userId": "irani",
+    "firstName": "Romin",
+    "lastName": "Irani",
+    "tech" : "Python",
+    "role": "Developer",
+    "fullName": "Romin Irani",
+    "region": "Hyderabad",
+    "mobile": "408-1234567",
+    "email": "romin.k.irani@gmail.com"
+  },
+  {
+    "eCode": "E13",
+    "userId": "nirani",
+    "firstName": "Neil",
+    "lastName": "Irani",
+    "tech" : "Java",
+    "role": "Engineer",
+    "fullName": "Neil Irani",
+    "region": "Chennai",
+    "mobile": "408-1111111",
+    "email": "neilrirani@gmail.com"
+  },
+  {
+    "eCode": "E14",
+    "userId": "thanks",
+    "firstName": "Tom",
+    "lastName": "Hanks",
+	"tech" : "Scrum",
+	"role": "Program Director",
+    "fullName": "Tom Hanks",
+    "region": "Bangalore",
+    "mobile": "408-2222222",
+    "email": "tomhanks@gmail.com"
+  }
+]

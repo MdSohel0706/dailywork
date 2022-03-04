@@ -1,0 +1,21 @@
+{
+    "A": {
+        "id": 100,
+        "name": "Sohel",
+        "salary": {
+            "Basic": 1000,
+            "Special": 2000,
+            "HR": 3000
+        }
+    },
+    "B": {
+        "id": 200,
+        "name": "Sasikanth",
+        "salary": {
+            "Basic": 500,
+            "Special": 1500,
+            "HR": 2500
+        },
+        "location": "Bengaluru"
+    }
+}

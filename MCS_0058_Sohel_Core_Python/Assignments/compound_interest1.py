@@ -1,0 +1,7 @@
+amount = float(input("Enter the amount in the savings account : "))
+after1year = amount + (amount*4*1/100)
+after2year = after1year + (after1year*4*1/100)
+after3year = after2year + (after2year*4*1/100)
+print("Amount after 1st year = {:.2f}".format(after1year))
+print("Amount after 2nd year = {:.2f}".format(after2year))
+print("Amount after 3rd year = {:.2f}".format(after3year))

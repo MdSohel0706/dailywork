@@ -1,0 +1,3 @@
+123, madhu, 30, male, engineer, 5000
+456, madhu, 30, male, engineer, 5000
+789, madhu, 30, male, engineer, 5000
